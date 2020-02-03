@@ -10,6 +10,14 @@ html, body {
 
 /* home page css */
 
+.cursive {
+    font-family: 'Cookie', cursive;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
 #home-container {
     height: 100%;
     display: grid;
@@ -18,6 +26,10 @@ html, body {
 
 .r1 {
     background-color: black;
+    background-image: url('img/david.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .r1-inner {
@@ -43,12 +55,50 @@ html, body {
 .home-main-nav > ul > li > a {
     color: white;
     text-decoration: none;
-    padding: 15px 1em;
+    padding: 15px .5em;
+    /* font-size: 1.35em; */
+}
+
+.home-main-nav > ul > li:first-child {
+    font-family: 'Cookie', cursive;
+}
+
+.home-main-nav > ul > li:first-child a:hover {
+    background-color: transparent;
+    color: #428bca;
 }
 
 .home-main-nav > ul > li > a:hover {
     background-color: #FFF;
     color: red;
 }
+
+.gallery-description {
+    text-align: center;
+    color: #FFF;
+    padding-top: 10%;
+    padding-bottom: 40px;
+    font-size: 1.4em;
+}
+
+.r2 {
+    display: grid;
+    padding: 2em 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    justify-items: center;
+    width: 80%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.r2 > div {
+    text-align: center;
+}
+
+.left-align {
+    text-align: left;
+}
+
 
 /* end home page css */
