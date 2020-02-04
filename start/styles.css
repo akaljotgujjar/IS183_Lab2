@@ -100,5 +100,8 @@ html, body {
     text-align: left;
 }
 
+.picture-heading {
+    font-size: 1.5em;
+}
 
 /* end home page css */
